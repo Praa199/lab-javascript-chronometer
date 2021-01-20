@@ -15,14 +15,17 @@ let splits = document.getElementById('splits');
 
 function printTime() {
   // ... your code goes here
+  chronometer.splitClick()
 }
 
 function printMinutes() {
   // ... your code goes here
+  chronometer.getMinutes()
 }
 
 function printSeconds() {
   // ... your code goes here
+  getSeconds()
 }
 
 // ==> BONUS
@@ -57,6 +60,8 @@ function setResetBtn() {
 // Start/Stop Button
 btnLeft.addEventListener('click', () => {
   // ... your code goes here
+  chronometer.startClick()
+  chronometer.stopClick()
 });
 
 // Reset/Split Button
