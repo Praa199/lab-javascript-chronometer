@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Digi";
-  src: url("fonts/ds-digib.ttf");
-}
+  src: url("/styles/fonts/ds-digi.ttf");
+} 
 
 body {
   font-family: Arial;
